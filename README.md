@@ -6,6 +6,12 @@
 
 Full-stack developer. I build web apps, bots and tools, mostly in JavaScript and TypeScript.
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rege-ontop89/rege-ontop89/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rege-ontop89/rege-ontop89/output/github-snake.svg" />
+  <img alt="A snake eating my contribution graph" src="https://raw.githubusercontent.com/rege-ontop89/rege-ontop89/output/github-snake.svg" />
+</picture>
+
 <details>
 <summary><b>How the card is rated</b></summary>
 
