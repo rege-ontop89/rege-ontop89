@@ -1,0 +1,36 @@
+name: Update player card
+
+on:
+  schedule:
+    - cron: "0 4 * * *" # daily, 04:00 UTC
+  workflow_dispatch: # lets you run it by hand from the Actions tab
+  push:
+    branches: [main]
+    paths: ["scripts/**", ".github/workflows/card.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  card:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Build card
+        run: node scripts/card.mjs
+        env:
+          # CARD_TOKEN is a personal token with read:user, so private activity counts.
+          # Falls back to the built-in token (public activity only) if it isn't set.
+          GITHUB_TOKEN: ${{ secrets.CARD_TOKEN || secrets.GITHUB_TOKEN }}
+
+      - name: Commit card if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add card.svg
+          git diff --cached --quiet || (git commit -m "Update player card" && git push)
