@@ -45,7 +45,7 @@
   <line x1="70" y1="314" x2="290" y2="314" stroke="#2f2104" stroke-opacity="0.35"/>
   <line x1="180" y1="330" x2="180" y2="418" stroke="#2f2104" stroke-opacity="0.35"/>
   
-    <text x="112" y="356" text-anchor="end" class="val">85</text>
+    <text x="112" y="356" text-anchor="end" class="val">82</text>
     <text x="120" y="356" class="lbl">PAC</text>
     <text x="236" y="356" text-anchor="end" class="val">83</text>
     <text x="244" y="356" class="lbl">DRI</text>
@@ -58,6 +58,6 @@
     <text x="236" y="420" text-anchor="end" class="val">82</text>
     <text x="244" y="420" class="lbl">PHY</text>
 
-  <rect x="110" y="437" width="8" height="19" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="122" y="436" width="8" height="20" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="134" y="441" width="8" height="15" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="146" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="158" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="170" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="182" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="194" y="451" width="8" height="5" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="206" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="218" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="230" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="242" y="453" width="8" height="3" rx="2" fill="#6b4a07" opacity="0.85"/>
+  <rect x="110" y="437" width="8" height="19" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="122" y="436" width="8" height="20" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="134" y="441" width="8" height="15" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="146" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="158" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="170" y="448" width="8" height="8" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="182" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="194" y="451" width="8" height="5" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="206" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="218" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="230" y="454" width="8" height="2" rx="2" fill="#6b4a07" opacity="0.85"/><rect x="242" y="452" width="8" height="4" rx="2" fill="#6b4a07" opacity="0.85"/>
   <text x="180" y="472" text-anchor="middle" style="font-size:8px;font-weight:700;letter-spacing:2px;opacity:0.6">FORM · 12 WEEKS</text>
 </svg>
